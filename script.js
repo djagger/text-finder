@@ -110,9 +110,6 @@ var Search = (function() {
       if (!findOptions.searchText)
         return;
 
-      Highlighter.unhighlight();
-
-      var findButton = document.getElementById("findButton");
       //not IE browser
       if (window.find && window.getSelection) {
 
